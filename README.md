@@ -9,14 +9,16 @@ Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em D
 Professor: [Marco André Mendes](github.com/marcoandre)
 
 Equipe:
-- [Aluno1](github.com/aluno1)
-- [Aluno2](github.com/aluno2)
+- [Bianca Lunelli Marques](github.com/bialunelli11)
+- [Erick Chaves Fiamoncini](github.com/erickChavesFiamoncini)
+- [Mateus Lima de Macedo](github.com/mateusLimadeMacedo)
+- [Renan de Lima Pereira](github.com/renan1811)
 
 Links do projeto:
 (*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
--   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
--   Backend: [Repositório](github.com/marcoandre/pi-backend) e [Publicação](https://pi-backend.herokuapp.com/)
--   Frontend: [Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
+-   [Documentação (esse documento)](github.com/ReadMore-Org/ReadMore_doc)
+-   Backend: [Repositório](github.com/ReadMore-Org/BackEnd) e [Publicação](Pendente)
+-   Frontend: [Repositório](github.com/ReadMore-Org/FrontEnd) e [Publicação](Pendente)
 
 **Como usar esse modelo para o Projeto Integrador**
 
@@ -39,22 +41,6 @@ Links do projeto:
 
 **Nessa parte a equipe deve escolher um dos modelos de sistemas para desenvolver o projeto. Ao escolher, escreva uma breve descrição do sistema e o motivo da escolha e pode apagar os outros modelos.**
 
-**1.1.1 Ponto de Vendas (PDV)**
-
-Um sistema de ponto de vendas é um software que permite a um estabelecimento comercial registrar as vendas realizadas, gerenciar o estoque, emitir notas fiscais, etc. Ele é utilizado principalmente em lojas, supermercados, padarias, restaurantes, etc.
-
-**Exemplos de sistemas de pontos de vendas:**
-- Padaria, supermercado, cafeteria, pizzaria, restaurante, etc.
-- Farmácia, loja de roupas, papelaria, etc.
-
-
-**Exemplo: Gerenciamento de vendas para uma padaria**
-
-O nosso cliente, Sr. Genival, tem uma padaria de bairro chamada padaria Pão Genial e, devido a qualidade de seus produtos, ela está crescendo rapidamente. Recentemente, ele contratou mais funcionários para atendimento, caixa, panificação, etc.
-Assim, atualmente, ele consegue concentrar seus esforços para melhorar a gestão da padaria. Para isso, ele quer instalar um sistema de controle de vendas que permita ao caixa lançar as vendas realizadas. Como sua intenção
-é melhorar a gestão do negócio, é muito importante que ele consiga ter
-relatórios, como por exemplo, de vendas.
-
 **1.1.2 Empréstimo**
 
 Um sistema de empréstimo é um software que permite a uma instituição, como uma biblioteca, gerenciar o empréstimo de livros, revistas, etc. Ele é utilizado principalmente em bibliotecas, escolas, universidades, etc.
@@ -71,57 +57,19 @@ Uma ONG, chamada Sala Arco Íris, ajuda crianças de baixa renda em sua educaç�
 terem um computador e as estantes necessárias à disposição nessa nova biblioteca, não possuem verba suficiente para um leitor de impressão digital ou para produção
 de carteirinhas para todas as crianças. Para isso, eles precisam de um sistema que gerencie todo o acervo, empréstimos, livros disponíveis, etc. mas que isso ocorra de maneira simples e sem necessidade de novos gastos. Também é importante que haja relatórios, permitindo o controle dos empréstimos e dos livros disponíveis no acervo.
 
-**1.1.3 Ordem de Serviço (O.S.)**
-
-Um sistema de ordem de serviço é um software que permite a uma empresa, como uma oficina, gerenciar os serviços realizados, os clientes atendidos, etc. Ele é utilizado principalmente em oficinas mecânicas, assistência técnica, etc.
-
-**Exemplos de sistemas de ordem de serviço:**
-- Manutenção de computadores, assistência técnica de celulares, etc.
-- Manutenção de veículos, etc.
-- Manutenção de eletrodomésticos, etc.
-
-
-**Exemplo:Manutenção de computadores**
-
-Sr. Sálvio, nosso cliente, fez um curso de manutenção de celulares e smartphones e decidiu abrir um negócio no qual ele é responsável pelos consertos e sua esposa, Marília, realiza o atendimento aos clientes. Com sua visão empreendedora, ele sentiu a necessidade de um software que auxilie sua esposa nas tarefas diárias. Para isso, ele deseja um sistema que gerencie os clientes, orçamentos, serviços e retirada dos equipamentos. Sendo um negócio pequeno, é muito importante para ele conseguir ter relatórios que o ajudem na gestão da empresa, como o status dos serviços.
-
 # 2. Situação Problema
 
-*(Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.)*
+**Projeto Capas Duras**
 
-![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
-
-Descrevem o que acontece atualmente na empresa em um contexto global,
-abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
-
-Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
-atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
-
--   Pesquise sobre empresas do ramo escolhido
-    para entender como funcionam;
--   Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
--   Simule uma situação real. Lembre-se que são propostas com empresas fictícias, sendo assim, você terá que tomar certas decisões sobre como a empresa funciona em relação às coisas que não estão definidas no documento base (por exemplo, no caso da padaria, dizemos que seu Genival contratou mais funcionários, mas saber quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
-
-Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas:
-
--   **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários, etc);
--   **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa diferente que for explicar (como faria em uma redação);
--   **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia ajudar a resolvê-los.
+   O governo municipal lançou um projeto nas bibliotecas da cidade chamado Capas Duras, com a finalidade de ampliar o acesso à leitura para toda a população, independentemente de sua condição financeira. Para isso, as bibliotecas municipais receberam doações que totalizam mais de 10 mil livros, os quais serão disponibilizados para empréstimo aos leitores da comunidade.
+   Apesar de a nova biblioteca já contar com computadores e estantes adequadas para organizar o acervo, não há recursos financeiros suficientes para investir em equipamentos como leitores de impressão digital ou para produzir carteirinhas para todos os usuários. Dessa forma, surge a necessidade de um sistema simples e de baixo custo que permita administrar o acervo, controlar os empréstimos, verificar a disponibilidade dos livros e registrar as movimentações de forma prática.
+   Além da gestão interna da biblioteca, também é importante que o sistema facilite a conexão entre leitores da comunidade que possuam livros e estejam dispostos a emprestá-los. Assim, o projeto não ficaria restrito apenas às bibliotecas municipais, mas poderia se expandir para a participação da própria população, ampliando ainda mais o acesso aos livros.
+   Por fim, o sistema deverá permitir a geração de relatórios, possibilitando o acompanhamento dos empréstimos realizados e do número de livros disponíveis no acervo, contribuindo para uma gestão mais eficiente e organizada.
 
 # 3. Descrição da proposta
 
-Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do desejado e permita sua continuidade.
+   O foco de ação do software é a organização e o empréstimos de livros. Existem dois tipos de usuários: o usuário administrador e o usuário comum, já que todos serão capazes de cadastrar livros para emprestar, receber empréstimos e organizar seus próprios acervos digitais. Para que essa estrutura seja completa, pensamos em uma divisão entre duas partes: em primeiro plano, o acervo digital pessoal, e, em seguida, a parte onde serão efetuados as relações de empréstimos. Toda essa lógica deve funcionar com a possibilidade de chats de conversas entre usuários, além da visualização de endereços de livros disponíveis para empréstimos cadastrados perto de cada usuário.
 
-**Alguns pontos importantes a se destacar são:**
-
--   **Qual o foco de ação do software** relacionado com os problemas levantados na análise da situação-problema. O que realmente o software vai fazer. Por exemplo, o foco de ação do Gmail é permitir o envio e recebimento de e-mails.
--   **Os níveis de usuário do sistema**. Somente o gestor tem acesso? E os funcionários? Talvez seja para ambos, ou para funcionários de cargos
-    diferentes, etc.
--   **O que poderá ser feito no software**.Apenas o principal, sem pensar em telas ou detalhes específicos, pois isso será feito em outro momento.
--   **Se houver mais de um nível de usuário**, ressaltar as diferenças entre eles na descrição da proposta.
-
-Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um texto gigantesco, apenas dar uma noção do funcionamento do sistema. Mais adiante
-precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo.
 
 # 4. Modelagem de Dados
 
@@ -131,13 +79,13 @@ Defina as entidades e relacionamentos que farão parte do sistema. Desenhe o dia
 
 
 
-# 4. Regras de negócio
+# 5. Regras de negócio
 (*Nessa parte a equipe deve descrever as regras de negócio que serão implementadas no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
 
 As **Regras de negócio** são orientações e restrições que ajudam a regular as operações de uma empresa. **Regras** foram criadas para **colaborar com o funcionamento**, seja da sociedade, de uma escola, de um jogo, etc. Não seria diferente nas organizações. Vamos abordar melhor sobre esse assunto. Entender o que são as regras de negócio, sua importância, como são aplicadas e
 automatizadas na gestão por processo.
 
-**4.1 O que são regras de negócio?**
+**5.1 O que são regras de negócio?**
 
 Um negócio funciona por processos que, por sua vez, são formados por atividades relacionadas entre si.
 
@@ -147,7 +95,21 @@ Dentro desses processos, existem regras que devem ser seguidas durante a execuç
 
 Podemos dizer que as regras de negócio são **limites impostos às operações**, de forma que elas sigam corretamente em direção às políticas e aos objetivos da instituição.
 
-**4.2 Regras para a criação de regras de negócio**
+**5.2 Regras para a criação de regras de negócio**
+
+RN001.01 - Dados dos usuários: nome, e-mail, senha, avatar e endereço.
+RN001.02 - A imagem deve ser associada ao usuário como “avatar”.
+RN002.01 - Os itens devem ser cadastrados por usuários.
+RN002.02 - Dados dos livros: nome, descrição, imagens, categoria, data de publicação, páginas, tipo da capa e tempo máximo de empréstimo.
+RN005.01 - O alerta deverá ser enviado como forma de notificação para o usuário.
+RN006.01 - Os produtos devem ser filtrados por: nome, categoria e/ou localização.
+RN007.01 - A avaliação deverá ser em formato de estrelas e/ou descrição. 
+RN007.02 - Dados do perfil do usuário: nome, foto, região, avaliação e descrição.
+RN008.01 - Os produtos emprestados e cadastrados por cada usuário devem ser listados. 
+RN009.01- As avaliações devem acontecer após a finalização de um empréstimo.
+RN010.01 - O contato deve acontecer via chat/mensagem interna com os donos dos livros. 
+RN011.01 - Exibir localização com base na proximidade geográfica do usuário.
+RN012.01 - Dados da entrega: taxa e rastreio.
 
 De maneira geral, as regras de negócio devem:
 - Ser **simples**, isto é,  ter apenas uma função.
@@ -158,13 +120,13 @@ De maneira geral, as regras de negócio devem:
 - Refletir a **política** e os **valores** da organização.
 - Ser **inteligíveis** para os colaboradores e envolvidos no processo.
 
-**4.3 Por que ter regras de negócio?**
+**5.3 Por que ter regras de negócio?**
 
 - **Padronização de processos:** padronizam os processos e auxiliam a fluirem de forma mais eficiente e automatizada.
 - **Controle de processos:** auxiliam no controle de processos, pois falhas são identificadas e corrigidas mais rapidamente.
 - **Tomada de decisão:** auxiliam na tomada de decisão e no cumprimento de estratégias pré-estabelecidas.
 
-**4.4 Exemplos de regras de negócio**
+**5.4 Exemplos de regras de negócio**
 
 - Em um controle de qualidade de granja, pode-se dizer que a cada 100 ovos impróprios para consumo, o lote será descartado.
 - Em um banco, clientes com faturamento mensal de mais de R$ 25 mil e CPF sem restrições, serão atendidos pelo gerente Premium pessoa física.
@@ -174,7 +136,7 @@ De maneira geral, as regras de negócio devem:
 - Em um processo de compras, o fornecedor só pode ser contratado se tiver nota fiscal, certificado de qualidade e preço abaixo de R$ 10,00 por unidade.
 - Em um processo de logística, o pedido só pode ser enviado se o cliente tiver mais de 18 anos, endereço de entrega no mesmo estado e não tiver restrições no CPF.
 
-**4.5 Como escrever regras de negócio?**
+**5.5 Como escrever regras de negócio?**
 
 - Número identificador.
 - Nome da regra.
@@ -185,7 +147,7 @@ controle.
 - Dependências: insira o identificador das regras atreladas, às quais a regra em questão depende.
 - Uma descrição detalhada para compreensão da regra.
 
-**4.6 Exemplos de regras de negócio com formatação**
+**5.6 Exemplos de regras de negócio com formatação**
 
 - **RN01 – Criação Comanda:** Para iniciar um atendimento no balcão, é necessário primeiro abrir uma nova comanda.
 - **RN02 – Inserir Produtos Comanda:** Para inserir um produto na comanda, é necessário que o produto esteja cadastrado no sistema e que a quantia comprada seja acima de zero.
@@ -199,10 +161,10 @@ repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve
 - **RN08 – Abertura de OS:** Com o atendimento aprovado pelo cliente, a atendente deverá inserir os dados do cliente e do orçamento em um novo documento, para registros internos, realizando a abertura da OS.
 - **RN09 – Relatório de Fluxo de Caixa:** O relatório de fluxo de caixa será permitido somente para o administrador.
 
-# 5. Requisitos funcionais
+# 6. Requisitos funcionais
 (*Nessa parte a equipe deve descrever os requisitos funcionais que serão implementados no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
 
-**5.1 O que são requisitos funcionais?**
+**6.1 O que são requisitos funcionais?**
 
 Um requisito funcional é uma declaração de como um sistema deve se comportar. Define o que o sistema deve fazer para atender às necessidades ou expectativas do usuário. Os requisitos funcionais podem ser pensados ​como recursos que o usuário detecta.
 
@@ -212,7 +174,7 @@ Os requisitos funcionais são compostos de duas partes:
 - A **função** é o que o sistema **faz**. Por exemplo: *“calcular imposto sobre vendas”*.
 - O **comportamento** é **como** o sistema faz. Por exemplo: *“O sistema deve calcular o imposto sobre vendas multiplicando o preço de compra pela alíquota do imposto.”*.
 
-**5.2 Tipos de requisitos funcionais**
+**6.2 Tipos de requisitos funcionais**
 
 Os requisitos funcionais podem ser classificados em:
 
@@ -226,7 +188,7 @@ Os requisitos funcionais podem ser classificados em:
 - Gestão de dados
 - Requisitos Legais e Regulamentares
 
-**5.3 Diretrizes para a elaboração de requisitos funcionais**
+**6.3 Diretrizes para a elaboração de requisitos funcionais**
 
 Cada requisito funcional precisa ser:
 
@@ -237,7 +199,7 @@ Cada requisito funcional precisa ser:
 - **Limitado** no tempo para que você possa
 acompanhar o progresso
 
-**5.4 Estrutura do requisito funcional**
+**6.4 Estrutura do requisito funcional**
 
 Um requisito funcional deve ser estruturado da seguinte forma:
 
@@ -246,7 +208,7 @@ requisito.
   - **Dados necessários:** dado 1, dado 2, dado 3.
   - **Usuários:** todos os níveis de usuário.
 
-**5.4.1 Nome do requisito funcional**
+**6.4.1 Nome do requisito funcional**
 
 **R.F. 99 - Nome do requisito funcional:** é o nome da função que o software terá. Sugerimos, por padronização, que tenha o prefixo R.F. (requisito funcional)
 seguida da numeração, para melhor identificação do requisito, acrescido do formato *“Substantivo + onde será feita a ação”*.
@@ -257,7 +219,7 @@ Por exemplo:
 
 Deixe para definir as numerações ao final, tendo em vista que mudanças podem acontecer e não é prático sempre ficar reajustando os números.
 
-**5.4.2 Descrição do requisito funcional**
+**6.4.2 Descrição do requisito funcional**
 
 **Descrição do requisito:** local para descrever a função deste requisito.
 
@@ -265,7 +227,7 @@ Sempre se preocupe em esclarecer dois pontos: o que o requisito faz e o motivo d
 Um exemplo é um Registro de funcionários, que talvez não exista hoje mas para o software é necessário para viabilizar uma autenticação de
 usuários. Outro exemplo é algo que faz sentido apenas para um  software, como a própria autenticação.
 
-**5.4.3 Dados necessários**
+**6.4.3 Dados necessários**
 
 **Dados necessários:** aqui devem ser colocados os nomes dos dados que serão usados para que esse requisito atenda o que precisa fazer.
 
@@ -273,18 +235,18 @@ Nas **entradas** e **processos**, em geral, são os dados que serão salvos (sej
 
 Já nas **saídas**, são os dados que serão exibidos em tela (sejam eles vindos diretamente do banco, ou criados por um cálculo ou busca na sessão do usuário).
 
-**5.4.4 Usuários**
+**6.4.4 Usuários**
 
 **Usuários:** aqui devem ser colocados os nomes dos usuários que terão acesso a esse requisito, conforme enumerados na descrição do sistema.
 
-**5.4.5 Exemplo de requisito funcional**
+**6.4.5 Exemplo de requisito funcional**
 
 - **R.F. 01 - Autenticação de usuário:** tem como propósito autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo e, caso possa, o direcionando
 para a página principal de seu perfil de acesso.
   - **Dados necessários:** login, senha, nível de permissão.
   - **Usuários:** todos os níveis de usuário.
 
-**5.4.6 Organização dos requisitos funcionais**
+**6.4.6 Organização dos requisitos funcionais**
 
 As funcionalidades devem ser organizadas em: entradas, processos e saídas.
 
@@ -312,7 +274,7 @@ negócio, mas sem intenção de alterá-los, apenas permitindo sua visualizaçã
 Todos esses podem ser consideradas saídas, pois usam informações de entradas e processos de modo a mostrar informações relevantes ao
 negócio. Lembre-se que, diferentemente das entradas e processos, aqui os dados necessários devem ser os que a tela exibirá.
 
-**5.4.7 Exemplo de organização dos requisitos funcionais**
+**6.4.7 Exemplo de organização dos requisitos funcionais**
 
 (_A seguir, um exemplo de organização de requisitos funcionais, com entradas, processos e saídas._)
 
@@ -346,13 +308,13 @@ negócio. Lembre-se que, diferentemente das entradas e processos, aqui os dados 
   - **Dados necessários:** dado 1, dado 2, dado 3.
   - **Usuários:** todos os níveis de usuário.
 
-# 6. Requisitos não funcionais
+# 7. Requisitos não funcionais
 
 Requisitos não funcionais (**RNFs**) são as restrições impostas a um sistema que definem seus atributos de qualidade.
 
 Eles geralmente são indicados por adjetivos como **segurança**, **desempenho** e **escalabilidade**.
 
-**6.1 Categorias de requisitos não funcionais**
+**7.1 Categorias de requisitos não funcionais**
 
 Os requisitos não funcionais são importantes porque ajudam a garantir que o sistema atenda às necessidades do usuário.
 
@@ -371,7 +333,7 @@ Os requisitos não funcionais podem ser divididos em duas categorias:
 2. **Restrições:** Estas são as limitações impostas ao sistema.
 Exemplos de restrições incluem tempo, recursos e ambiente.
 
-**6.2 Vantagens dos requisitos não funcionais**
+**7.2 Vantagens dos requisitos não funcionais**
 
 Os requisitos não funcionais ajudam a garantir que o sistema seja:
 
@@ -380,7 +342,7 @@ Os requisitos não funcionais ajudam a garantir que o sistema seja:
 3. Escalável, seguro e confiável.
 4. Fácil de usar e manter.
 
-**6.3 Exemplos de requisitos não funcionais**
+**7.3 Exemplos de requisitos não funcionais**
 
 Aqui estão alguns exemplos de requisitos não funcionais:
 1. **Segurança**: O sistema deve ser protegido contra acesso não
@@ -400,7 +362,7 @@ do usuário.
 10. **Conformidade**: O sistema deve cumprir todas as leis e regulamentos
 aplicáveis.
 
-**6.4 Exemplo de organização dos requisitos não funcionais**
+**7.4 Exemplo de organização dos requisitos não funcionais**
 
 (_A seguir, um exemplo de organização de requisitos não funcionais._)
 
@@ -436,16 +398,16 @@ aplicáveis.
 - **R.N.F. 08 - Web Server:** O servidor web utilizado será o Apache Tomcat, nas versões mais atualizadas.
 - **R.N.F. 09 - Níveis de segurança:** O software terá diferentes tipos de acesso para cada tipo de login, tendo as permissões ideais a função de cada um.
 
-**6.6 Conclusão**
+**7.6 Conclusão**
 
 Requisitos não funcionais são essenciais para qualquer sistema. Eles ajudam a garantir que o sistema atenda às necessidades do usuário e seja capaz de funcionar como pretendido.
 
 É importante considerar cuidadosamente todos os requisitos não funcionais antes de projetar e desenvolver um sistema.
 Eles ajudam a garantir que o sistema atenda às necessidades do usuário e seja capaz de funcionar como pretendido.
 
-# 7. Diagrama de Caso de Uso
+# 8. Diagrama de Caso de Uso
 
-**7.1 Introdução**
+**8.1 Introdução**
 
 O diagrama de caso de uso é uma ferramenta de modelagem que descreve o comportamento de um sistema a partir da perspectiva do usuário. Ele é usado para capturar os requisitos funcionais de um sistema.
 
@@ -462,9 +424,9 @@ O diagrama de caso de uso é uma ferramenta de modelagem que descreve o comporta
 - O conjunto de casos de uso deve ser capaz de comunicar a **funcionalidade** e o **comportamento** do sistema para o cliente.
 - Descrevem **o que** o sistema faz, mas **não** especificam **como** isso deve ser feito.
 
-**7.2 Elementos do diagrama de caso de uso**
+**8.2 Elementos do diagrama de caso de uso**
 
-7.2.1 **Atores**
+**8.2.1 **Atores****
 
 - Representam os papéis desempenhados por **elementos externos** ao sistema
   - Ex: humano (usuário), dispositivo de hardware ou outro sistema (cliente)
@@ -485,7 +447,7 @@ Notação:
 **E o cliente?**
 - Não é ator pois ele **não interage** com o sistema!
 
-**7.2.2 Casos de uso**
+**8.2.2 Casos de uso**
 
 - Representam **funcionalidades** do sistema (requisitos funcionais).
 - São iniciados por **atores** ou por outros casos de uso.
@@ -505,9 +467,9 @@ Notação:
 
 ![Identificando os casos de uso](img/dcu_identificando_casos_de_uso.png "Identificando os casos de uso")
 
-**7.2.3 Relacionamentos**
+**8.2.3 Relacionamentos**
 
-**7.2.3.1 Relacionamento de associação**
+**8.2.3.1 Relacionamento de associação**
 
 - Indica que um ator **participa** de um caso de uso, ou seja, o ator **interage** (comunica-se) com o caso de uso.
 - É representado por uma **linha sólida**.
@@ -528,7 +490,7 @@ Notação:
 
 ![Identificando os relacionamentos de associação](img/dcu_identificando_relacionamentos_de_associacao.png "Identificando os relacionamentos de associação")
 
-**7.2.3.2 Relacionamento de generalização/especialização**
+**8.2.3.2 Relacionamento de generalização/especialização**
 
 **Generalização de atores**
 
@@ -581,7 +543,7 @@ acréscimo de 20%. As vendas a prazo podem ser pagas no **cartão** ou no **bole
 
 ![Identificando mais relacionamentos de generalização/especialização de casos de uso](img/dcu_identificando_mais_relacionamentos_de_generalizacao_especializacao_de_casos_de_uso.png "Identificando mais relacionamentos de generalização/especialização de casos de uso")
 
-**7.2.3.3 Relacionamento de dependência**
+**8.2.3.3 Relacionamento de dependência**
 
 **Extensão**
 
@@ -627,7 +589,7 @@ acesso ao sistema.
 
 ![Identificando os relacionamentos de dependência (inclusão)](img/dcu_identificando_relacionamentos_de_dependencia_inclusao.png "Identificando os relacionamentos de dependência (inclusão)")
 
-**7.2.4 Fronteira do sistema**
+**8.2.4 Fronteira do sistema**
 
 - Elemento opcional (mas essencial para um bom
 entendimento).
