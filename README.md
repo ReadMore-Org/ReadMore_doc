@@ -1,6 +1,6 @@
-_**READMORE**_
+# _**READMORE**_
 
-**Descrição do projeto**
+_**Descrição do projeto**_
 
    ReadMore é uma aplicação web progressiva (PWA) desenvolvida para transformar a forma como leitores organizam e compartilham suas leituras. A plataforma funciona como uma estante virtual, permitindo que usuários adicionem, gerenciem e acompanhem seus livros de maneira prática e intuitiva.
    Além da organização pessoal, o ReadMore promove a interação entre leitores ao possibilitar o empréstimo de livros entre usuários, criando uma rede colaborativa de leitura. Com uma interface moderna e acessível, o aplicativo oferece uma experiência fluida tanto em dispositivos móveis quanto desktop, incentivando o hábito da leitura e a conexão entre pessoas através dos livros.
@@ -8,20 +8,16 @@ _**READMORE**_
 
 **Professor:** [Marco André Mendes](github.com/marcoandre)
 
-**Equipe:**
+**Equipe** 
 - [Bianca Lunelli Marques](github.com/bialunelli)
 - [Erick Chaves Fiamoncini](github.com/erickChavesFiamoncini)
 - [Mateus Lima de Macedo](github.com/mateusLimadeMacedo)
 - [Renan de Lima Pereira](github.com/renan1811)
 
-Links do projeto:
+**Links do projeto**
 -   [Documentação (esse documento)](github.com/ReadMore-Org/ReadMore_doc)
 -   Backend: [Repositório](github.com/ReadMore-Org/BackEnd) e [Publicação](Pendente)
 -   Frontend: [Repositório](github.com/ReadMore-Org/FrontEnd) e [Publicação](Pendente)
-
-**Como usar esse modelo para o Projeto Integrador**
-
-*(Essa parte pode ser apagada depois.)*
 
 1. Faça um fork desse repositório para a sua conta do GitHub.
 2. Clone o repositório para o seu computador.
@@ -72,39 +68,10 @@ de carteirinhas para todas as crianças. Para isso, eles precisam de um sistema 
 
 # 4. Modelagem de Dados
 
-(*Nessa parte a equipe deve descrever a modelagem de dados que será implementada no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
-
 Defina as entidades e relacionamentos que farão parte do sistema. Desenhe o diagrama de entidade-relacionamento (DER) e descreva as entidades e relacionamentos que farão parte do sistema.
-
-
-
-# 5. Regras de negócio
-- **RN001.01 - Dados dos usuários: nome, e-mail, senha, avatar e endereço.**
-- **RN001.02 - A imagem deve ser associada ao usuário como “avatar”.**
-- **RN002.01 - Os itens devem ser cadastrados por usuários.**
-- **RN002.02 - Dados dos livros: nome, descrição, imagens, categoria, data de publicação, páginas, tipo da capa e tempo máximo de empréstimo.**
-- **RN005.01 - O alerta deverá ser enviado como forma de notificação para o usuário.**
-- **RN006.01 - Os produtos devem ser filtrados por: nome, categoria e/ou localização.**
-- **RN007.01 - A avaliação deverá ser em formato de estrelas e/ou descrição.**
-- **RN007.02 - Dados do perfil do usuário: nome, foto, região, avaliação e descrição.**
-- **RN008.01 - Os produtos emprestados e cadastrados por cada usuário devem ser listados.**
-- **RN009.01- As avaliações devem acontecer após a finalização de um empréstimo.**
-- **RN010.01 - O contato deve acontecer via chat/mensagem interna com os donos dos livros.**
-- **RN011.01 - Exibir localização com base na proximidade geográfica do usuário.**
-- **RN012.01 - Dados da entrega: taxa e rastreio.**
 
 As **Regras de negócio** são orientações e restrições que ajudam a regular as operações de uma empresa. **Regras** foram criadas para **colaborar com o funcionamento**, seja da sociedade, de uma escola, de um jogo, etc. Não seria diferente nas organizações. Vamos abordar melhor sobre esse assunto. Entender o que são as regras de negócio, sua importância, como são aplicadas e
 automatizadas na gestão por processo.
-
-**5.1 O que são regras de negócio?**
-
-Um negócio funciona por processos que, por sua vez, são formados por atividades relacionadas entre si.
-
-As funções das áreas de compras, estoque, logística, finanças, vendas e marketing, por exemplo, compõem um processo de fornecimento de um produto ao cliente.
-
-Dentro desses processos, existem regras que devem ser seguidas durante a execução das atividades, que ajudam a definir **COMO** as operações devem ser realizadas e gerenciadas, **POR QUEM**, **QUANDO**, **ONDE** e **POR QUÊ**.
-
-Podemos dizer que as regras de negócio são **limites impostos às operações**, de forma que elas sigam corretamente em direção às políticas e aos objetivos da instituição.
 
 **5.2 Regras para a criação de regras de negócio**
 
@@ -122,110 +89,41 @@ RN010.01 - O contato deve acontecer via chat/mensagem interna com os donos dos l
 RN011.01 - Exibir localização com base na proximidade geográfica do usuário.
 RN012.01 - Dados da entrega: taxa e rastreio.
 
-De maneira geral, as regras de negócio devem:
-- Ser **simples**, isto é,  ter apenas uma função.
-- Ser **completas**, com início, meio e fim.
-- Ser possíveis de **mensurar** e **rastrear**.
-- Estar em consonância com a **legislação**.
-- Estar **atualizadas** e sempre **revisadas**.
-- Refletir a **política** e os **valores** da organização.
-- Ser **inteligíveis** para os colaboradores e envolvidos no processo.
-
-**5.3 Por que ter regras de negócio?**
-
-- **Padronização de processos:** padronizam os processos e auxiliam a fluirem de forma mais eficiente e automatizada.
-- **Controle de processos:** auxiliam no controle de processos, pois falhas são identificadas e corrigidas mais rapidamente.
-- **Tomada de decisão:** auxiliam na tomada de decisão e no cumprimento de estratégias pré-estabelecidas.
-
-**5.4 Exemplos de regras de negócio**
-
-- Em um controle de qualidade de granja, pode-se dizer que a cada 100 ovos impróprios para consumo, o lote será descartado.
-- Em um banco, clientes com faturamento mensal de mais de R$ 25 mil e CPF sem restrições, serão atendidos pelo gerente Premium pessoa física.
-- Para conclusão de licitações, devem ser feitos três orçamentos e o vencedor será sempre o de menor preço final.
-- Em um processo de seleção de RH, o candidato só pode ser aprovado se tiver mais de 5 anos de experiência na área, diploma de pós-graduação, espanhol fluente e pretensão salarial abaixo de R$ 8.000,00.
-- Em um processo de vendas, o vendedor só pode vender um produto se o cliente tiver mais de 18 anos, renda familiar acima de R$ 5.000,00 e não tiver restrições no CPF.
-- Em um processo de compras, o fornecedor só pode ser contratado se tiver nota fiscal, certificado de qualidade e preço abaixo de R$ 10,00 por unidade.
-- Em um processo de logística, o pedido só pode ser enviado se o cliente tiver mais de 18 anos, endereço de entrega no mesmo estado e não tiver restrições no CPF.
-
-**5.5 Como escrever regras de negócio?**
-
-- Número identificador.
-- Nome da regra.
-- Data de criação e data da última alteração para comparações e
-controle.
-- Nome dos Autores das versões.
-- Número da versão (1, 2 etc).
-- Dependências: insira o identificador das regras atreladas, às quais a regra em questão depende.
-- Uma descrição detalhada para compreensão da regra.
-
-**5.6 Exemplos de regras de negócio com formatação**
-
-- **RN01 – Criação Comanda:** Para iniciar um atendimento no balcão, é necessário primeiro abrir uma nova comanda.
-- **RN02 – Inserir Produtos Comanda:** Para inserir um produto na comanda, é necessário que o produto esteja cadastrado no sistema e que a quantia comprada seja acima de zero.
-- **RN03 – Cadastro de Leitores:** Os leitores precisam fazer o cadastro para realizar o empréstimo.
-- **RN04 – Realizar Empréstimo:** Para realizar o empréstimo, apenas leitores com cadastro e nenhuma multa em aberto.
-- **RN05 – Registro de Empréstimo:** O gerente deve possuir acesso aos registros de empréstimos.
-- **RN06 – Pagamento de Multa:** O leitor que passar de 15 dias com o livro deverá pagar a multa de um real por dia de atraso.
-- **RN07 – Impressão de Orçamento:** Com as informações do
-orçamento registradas, a atendente deve imprimir o orçamento e
-repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve solicitar a sua assinatura para aprovar a execução do serviço.
-- **RN08 – Abertura de OS:** Com o atendimento aprovado pelo cliente, a atendente deverá inserir os dados do cliente e do orçamento em um novo documento, para registros internos, realizando a abertura da OS.
-- **RN09 – Relatório de Fluxo de Caixa:** O relatório de fluxo de caixa será permitido somente para o administrador.
 
 # 6. Requisitos funcionais
 
-- **RF001 - Cadastro de Usuários**
+- **RF001 - Cadastro de usuários**
    - O sistema deve manter usuários.
    - O sistema deve manter imagens.
+   - O sistema deve manter e-mails.
 - **RF002 - Cadastro de livros**
    - O sistema deve manter categorias.
    - O sistema deve manter itens.
+   - O sistema deve manter status.
+   - O sistema deve manter autores.
+   - O sistema deve manter progresso.
+   - O sistema deve manter avaliações.
 - **RF003 - Empréstimo de livros**
    - O sistema deve permitir que usuários emprestem livros disponíveis por um período determinado.
+   - O sistema deve manter histórico de livros emprestados.
 - **RF004 - Controle**
    - O sistema deve controlar o tempo de devolução de cada livro emprestado.
 - **RF005 - Alerta**
    - O sistema deve enviar um alerta ao usuário caso o tempo seja excedido.
-- **RF006 - Barra de Pesquisa**
+- **RF006 - Barra de pesquisa**
    - O sistema deve fornecer uma barra de pesquisa para buscar produtos.
-- **RF007 - Perfis de Usuários**
+- **RF007 - Perfis de usuários**
    - O sistema deve manter avaliação.
    - O sistema deve manter perfil de usuários públicos.
 - **RF008 - Controle de livros**
    - O sistema deve controlar a quantidade de produtos emprestados e produtos cadastrados por cada usuário.
-- **RF009 - Avaliação de Usuários**
+- **RF009 - Avaliação de usuários**
    - O sistema deve permitir que usuários avaliem mutuamente.
-- **RF010 - Sistema de Contato entre Usuários**
+- **RF010 - Sistema de contato entre usuários**
    - O sistema deve permitir que usuários entrem em contato.
 - **RF011 - O sistema deve manter localização dos livros**
-- **RF012 - O sistema deve permitir a opção de entrega de produtos alugados na residência**
-- **RF013 - O sistema deve manter o histórico de livros emprestados por cada usuário**
-
-
-
-**6.1 O que são requisitos funcionais?**
-
-Um requisito funcional é uma declaração de como um sistema deve se comportar. Define o que o sistema deve fazer para atender às necessidades ou expectativas do usuário. Os requisitos funcionais podem ser pensados ​como recursos que o usuário detecta.
-
-Os requisitos funcionais são compostos de duas partes:
-**função** e **comportamento**.
-
-- A **função** é o que o sistema **faz**. Por exemplo: *“calcular imposto sobre vendas”*.
-- O **comportamento** é **como** o sistema faz. Por exemplo: *“O sistema deve calcular o imposto sobre vendas multiplicando o preço de compra pela alíquota do imposto.”*.
-
-**6.2 Tipos de requisitos funcionais**
-
-Os requisitos funcionais podem ser classificados em:
-
-- Regulamentos de Negócios
-- Requisitos de Certificação
-- Requisitos de relatório
-- Funções Administrativas
-- Níveis de autorização
-- Rastreamento de auditoria
-- Interfaces Externas
-- Gestão de dados
-- Requisitos Legais e Regulamentares
+- **RF012 - O sistema deve permitir a opção de entrega de produtos alugados**
+- **RF013 - O sistema deve manter editoras**
 
 **6.3 Diretrizes para a elaboração de requisitos funcionais**
 
