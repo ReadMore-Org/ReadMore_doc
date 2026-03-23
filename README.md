@@ -68,7 +68,7 @@ de carteirinhas para todas as crianças. Para isso, eles precisam de um sistema 
 
 # 4. Modelagem de Dados
 
-<img width="908" height="506" alt="modelagem_ReadMore" src="https://github.com/user-attachments/assets/4df4041a-c5ba-4564-a29f-797cd4cbd3af" />
+<img width="908" height="506" alt="modelagem_ReadMore" src="https://github.com/user-attachments/assets/3e806e06-edf4-4ff4-8133-dbbb9257ef23" />
 
 As **Regras de negócio** são orientações e restrições que ajudam a regular as operações de uma empresa. **Regras** foram criadas para **colaborar com o funcionamento**, seja da sociedade, de uma escola, de um jogo, etc. Não seria diferente nas organizações. Vamos abordar melhor sobre esse assunto. Entender o que são as regras de negócio, sua importância, como são aplicadas e
 automatizadas na gestão por processo.
