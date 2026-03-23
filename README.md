@@ -1,6 +1,7 @@
 _**READMORE**_
 
 **Descrição do projeto**
+
    ReadMore é uma aplicação web progressiva (PWA) desenvolvida para transformar a forma como leitores organizam e compartilham suas leituras. A plataforma funciona como uma estante virtual, permitindo que usuários adicionem, gerenciem e acompanhem seus livros de maneira prática e intuitiva.
    Além da organização pessoal, o ReadMore promove a interação entre leitores ao possibilitar o empréstimo de livros entre usuários, criando uma rede colaborativa de leitura. Com uma interface moderna e acessível, o aplicativo oferece uma experiência fluida tanto em dispositivos móveis quanto desktop, incentivando o hábito da leitura e a conexão entre pessoas através dos livros.
    O projeto tem como foco a usabilidade, acessibilidade e eficiência, utilizando tecnologias web modernas para garantir desempenho e experiência de usuário de alta qualidade.
@@ -78,7 +79,19 @@ Defina as entidades e relacionamentos que farão parte do sistema. Desenhe o dia
 
 
 # 5. Regras de negócio
-(*Nessa parte a equipe deve descrever as regras de negócio que serão implementadas no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
+- **RN001.01 - Dados dos usuários: nome, e-mail, senha, avatar e endereço.**
+- **RN001.02 - A imagem deve ser associada ao usuário como “avatar”.**
+- **RN002.01 - Os itens devem ser cadastrados por usuários.**
+- **RN002.02 - Dados dos livros: nome, descrição, imagens, categoria, data de publicação, páginas, tipo da capa e tempo máximo de empréstimo.**
+- **RN005.01 - O alerta deverá ser enviado como forma de notificação para o usuário.**
+- **RN006.01 - Os produtos devem ser filtrados por: nome, categoria e/ou localização.**
+- **RN007.01 - A avaliação deverá ser em formato de estrelas e/ou descrição.**
+- **RN007.02 - Dados do perfil do usuário: nome, foto, região, avaliação e descrição.**
+- **RN008.01 - Os produtos emprestados e cadastrados por cada usuário devem ser listados.**
+- **RN009.01- As avaliações devem acontecer após a finalização de um empréstimo.**
+- **RN010.01 - O contato deve acontecer via chat/mensagem interna com os donos dos livros.**
+- **RN011.01 - Exibir localização com base na proximidade geográfica do usuário.**
+- **RN012.01 - Dados da entrega: taxa e rastreio.**
 
 As **Regras de negócio** são orientações e restrições que ajudam a regular as operações de uma empresa. **Regras** foram criadas para **colaborar com o funcionamento**, seja da sociedade, de uma escola, de um jogo, etc. Não seria diferente nas organizações. Vamos abordar melhor sobre esse assunto. Entender o que são as regras de negócio, sua importância, como são aplicadas e
 automatizadas na gestão por processo.
@@ -160,7 +173,35 @@ repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve
 - **RN09 – Relatório de Fluxo de Caixa:** O relatório de fluxo de caixa será permitido somente para o administrador.
 
 # 6. Requisitos funcionais
-(*Nessa parte a equipe deve descrever os requisitos funcionais que serão implementados no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
+
+- **RF001 - Cadastro de Usuários**
+   - O sistema deve manter usuários.
+   - O sistema deve manter imagens.
+- **RF002 - Cadastro de livros**
+   - O sistema deve manter categorias.
+   - O sistema deve manter itens.
+- **RF003 - Empréstimo de livros**
+   - O sistema deve permitir que usuários emprestem livros disponíveis por um período determinado.
+- **RF004 - Controle**
+   - O sistema deve controlar o tempo de devolução de cada livro emprestado.
+- **RF005 - Alerta**
+   - O sistema deve enviar um alerta ao usuário caso o tempo seja excedido.
+- **RF006 - Barra de Pesquisa**
+   - O sistema deve fornecer uma barra de pesquisa para buscar produtos.
+- **RF007 - Perfis de Usuários**
+   - O sistema deve manter avaliação.
+   - O sistema deve manter perfil de usuários públicos.
+- **RF008 - Controle de livros**
+   - O sistema deve controlar a quantidade de produtos emprestados e produtos cadastrados por cada usuário.
+- **RF009 - Avaliação de Usuários**
+   - O sistema deve permitir que usuários avaliem mutuamente.
+- **RF010 - Sistema de Contato entre Usuários**
+   - O sistema deve permitir que usuários entrem em contato.
+- **RF011 - O sistema deve manter localização dos livros**
+- **RF012 - O sistema deve permitir a opção de entrega de produtos alugados na residência**
+- **RF013 - O sistema deve manter o histórico de livros emprestados por cada usuário**
+
+
 
 **6.1 O que são requisitos funcionais?**
 
@@ -307,10 +348,23 @@ negócio. Lembre-se que, diferentemente das entradas e processos, aqui os dados 
   - **Usuários:** todos os níveis de usuário.
 
 # 7. Requisitos não funcionais
+- **RNF001 - Login/Logout**
+   - O sistema deve permitir que os usuários façam login e logout.
+- **RNF002 - Arquitetura Cliente-Servidor**
+   - O sistema será dividido em frontend (Vue.js) e backend (Django).
+- **RNF004 - Segurança**
+   - O sistema deve criptografar senhas e usar autenticação segura (ex: JWT, isAuthenticated…).
+- **RNF005 - Usabilidade**
+   - O sistema deve fornecer uma interface amigável, intuitiva e responsiva (adaptada para desktop e mobile).
+- **RNF006 - Performance**
+   - O sistema deve realizar buscas e carregar páginas em até 2 segundos, em média.
+- **RNF007 - Compatibilidade**
+   - O sistema deve funcionar corretamente nos principais navegadores (Chrome, Firefox, Edge) nas versões mais recentes.
+- **RNF008 - Manutenibilidade**
+   - O sistema deve fornecer um código modular e bem documentado para facilitar a manutenção e atualizações.
+- **RNF009 - Backup e Recuperação**
+   - O sistema deve conter mecanismos para backup automático dos dados e recuperação em caso de falha.
 
-Requisitos não funcionais (**RNFs**) são as restrições impostas a um sistema que definem seus atributos de qualidade.
-
-Eles geralmente são indicados por adjetivos como **segurança**, **desempenho** e **escalabilidade**.
 
 **7.1 Categorias de requisitos não funcionais**
 
