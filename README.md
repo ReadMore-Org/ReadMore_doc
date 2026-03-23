@@ -68,7 +68,7 @@ de carteirinhas para todas as crianças. Para isso, eles precisam de um sistema 
 
 # 4. Modelagem de Dados
 
-Defina as entidades e relacionamentos que farão parte do sistema. Desenhe o diagrama de entidade-relacionamento (DER) e descreva as entidades e relacionamentos que farão parte do sistema.
+<img width="908" height="506" alt="modelagem_ReadMore" src="https://github.com/user-attachments/assets/4df4041a-c5ba-4564-a29f-797cd4cbd3af" />
 
 As **Regras de negócio** são orientações e restrições que ajudam a regular as operações de uma empresa. **Regras** foram criadas para **colaborar com o funcionamento**, seja da sociedade, de uma escola, de um jogo, etc. Não seria diferente nas organizações. Vamos abordar melhor sobre esse assunto. Entender o que são as regras de negócio, sua importância, como são aplicadas e
 automatizadas na gestão por processo.
