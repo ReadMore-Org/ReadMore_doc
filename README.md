@@ -1,21 +1,19 @@
-# Projeto Integrador - Modelo
-*(Coloque aqui o nome do seu projeto.)*
+_**READMORE**_
 
-Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
-*(Coloque aqui uma breve descrição do seu projeto.)*
+**Descrição do projeto**
+   ReadMore é uma aplicação web progressiva (PWA) desenvolvida para transformar a forma como leitores organizam e compartilham suas leituras. A plataforma funciona como uma estante virtual, permitindo que usuários adicionem, gerenciem e acompanhem seus livros de maneira prática e intuitiva.
+   Além da organização pessoal, o ReadMore promove a interação entre leitores ao possibilitar o empréstimo de livros entre usuários, criando uma rede colaborativa de leitura. Com uma interface moderna e acessível, o aplicativo oferece uma experiência fluida tanto em dispositivos móveis quanto desktop, incentivando o hábito da leitura e a conexão entre pessoas através dos livros.
+   O projeto tem como foco a usabilidade, acessibilidade e eficiência, utilizando tecnologias web modernas para garantir desempenho e experiência de usuário de alta qualidade.
 
-**IMPORTANTE**: [**Cadastre seu projeto nesta planilha**](https://docs.google.com/spreadsheets/d/1bSb1-S9qOf46fNH8quyoFpcjcTuBMj_EdSPchOuFULY/edit?usp=sharing).
+**Professor:** [Marco André Mendes](github.com/marcoandre)
 
-Professor: [Marco André Mendes](github.com/marcoandre)
-
-Equipe:
+**Equipe:**
 - [Bianca Lunelli Marques](github.com/bialunelli)
 - [Erick Chaves Fiamoncini](github.com/erickChavesFiamoncini)
 - [Mateus Lima de Macedo](github.com/mateusLimadeMacedo)
 - [Renan de Lima Pereira](github.com/renan1811)
 
 Links do projeto:
-(*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
 -   [Documentação (esse documento)](github.com/ReadMore-Org/ReadMore_doc)
 -   Backend: [Repositório](github.com/ReadMore-Org/BackEnd) e [Publicação](Pendente)
 -   Frontend: [Repositório](github.com/ReadMore-Org/FrontEnd) e [Publicação](Pendente)
