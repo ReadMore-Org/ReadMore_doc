@@ -97,6 +97,7 @@ RN012.01 - Dados da entrega: taxa e rastreio.
    - O sistema deve manter imagens.
    - O sistema deve manter e-mails.
 - **RF002 - Cadastro de livros**
+   - O sistema deve manter livros.
    - O sistema deve manter categorias.
    - O sistema deve manter itens.
    - O sistema deve manter status.
