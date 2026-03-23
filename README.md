@@ -9,7 +9,7 @@ Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em D
 Professor: [Marco André Mendes](github.com/marcoandre)
 
 Equipe:
-- [Bianca Lunelli Marques](github.com/bialunelli11)
+- [Bianca Lunelli Marques](github.com/bialunelli)
 - [Erick Chaves Fiamoncini](github.com/erickChavesFiamoncini)
 - [Mateus Lima de Macedo](github.com/mateusLimadeMacedo)
 - [Renan de Lima Pereira](github.com/renan1811)
