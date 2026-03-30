@@ -1,6 +1,21 @@
 # _**READMORE**_ 📖
 
-# 1. Proposta 📃
+# Informações
+
+- 👨‍🏫 | **Professor:** [Marco André Mendes](github.com/marcoandre)
+
+- 👥 | **Equipe** 
+- [Bianca Lunelli Marques](github.com/bialunelli)
+- [Erick Chaves Fiamoncini](github.com/erickChavesFiamoncini)
+- [Mateus Lima de Macedo](github.com/mateusLimadeMacedo)
+- [Renan de Lima Pereira](github.com/renan1811)
+
+- 🔗 | **Links do projeto**
+-   [Documentação (esse documento)](github.com/ReadMore-Org/ReadMore_doc)
+-   Backend: [Repositório](github.com/ReadMore-Org/BackEnd) e [Publicação](Pendente)
+-   Frontend: [Repositório](github.com/ReadMore-Org/FrontEnd) e [Publicação](Pendente)
+
+# Proposta 📃
 
 - 📑 | **_Descrição do projeto_**
 
@@ -19,15 +34,15 @@
 
    O foco de ação do software é a organização e o empréstimos de livros. Existem dois tipos de usuários: o usuário administrador e o usuário comum, já que todos serão capazes de cadastrar livros para emprestar, receber empréstimos e organizar seus próprios acervos digitais. Para que essa estrutura seja completa, pensamos em uma divisão entre duas partes: em primeiro plano, o acervo digital pessoal, e, em seguida, a parte onde serão efetuados as relações de empréstimos. Toda essa lógica deve funcionar com a possibilidade de chats de conversas entre usuários, além da visualização de endereços de livros disponíveis para empréstimos cadastrados perto de cada usuário.
 
-# 2. Modelagem de Dados 🎲
+# Modelagem de Dados 🎲
 
 <img width="908" height="506" alt="modelagem_ReadMore" src="https://github.com/user-attachments/assets/3e806e06-edf4-4ff4-8133-dbbb9257ef23" />
 
-# 3. Requisitos 🎖️
+# Requisitos 🎖️
 
 - ⭐ | **_Requisitos funcionais_**
 
-- **RF001 - Cadastro de usuários**
+- _RF001 - Cadastro de usuários_
    - O sistema deve manter usuários.
    - O sistema deve manter imagens.
    - O sistema deve manter e-mails.
@@ -79,20 +94,3 @@
    - O sistema deve fornecer um código modular e bem documentado para facilitar a manutenção e atualizações.
 - **RNF009 - Backup e Recuperação**
    - O sistema deve conter mecanismos para backup automático dos dados e recuperação em caso de falha.
-
-# Informações
-
-**Professor:** [Marco André Mendes](github.com/marcoandre)
-
-**Equipe** 
-- [Bianca Lunelli Marques](github.com/bialunelli)
-- [Erick Chaves Fiamoncini](github.com/erickChavesFiamoncini)
-- [Mateus Lima de Macedo](github.com/mateusLimadeMacedo)
-- [Renan de Lima Pereira](github.com/renan1811)
-
-**Links do projeto**
--   [Documentação (esse documento)](github.com/ReadMore-Org/ReadMore_doc)
--   Backend: [Repositório](github.com/ReadMore-Org/BackEnd) e [Publicação](Pendente)
--   Frontend: [Repositório](github.com/ReadMore-Org/FrontEnd) e [Publicação](Pendente)
-
-
