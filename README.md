@@ -1,31 +1,31 @@
-# _**READMORE**_
+# _**READMORE**_ 📖
 
-# 1. Proposta
+# 1. Proposta 📃
 
-_Descrição do projeto_
+- 📑 | **_Descrição do projeto_**
 
    ReadMore é uma aplicação web progressiva (PWA) desenvolvida para transformar a forma como leitores organizam e compartilham suas leituras. A plataforma funciona como uma estante virtual, permitindo que usuários adicionem, gerenciem e acompanhem seus livros de maneira prática e intuitiva.
    Além da organização pessoal, o ReadMore promove a interação entre leitores ao possibilitar o empréstimo de livros entre usuários, criando uma rede colaborativa de leitura. Com uma interface moderna e acessível, o aplicativo oferece uma experiência fluida tanto em dispositivos móveis quanto desktop, incentivando o hábito da leitura e a conexão entre pessoas através dos livros.
    O projeto tem como foco a usabilidade, acessibilidade e eficiência, utilizando tecnologias web modernas para garantir desempenho e experiência de usuário de alta qualidade.
 
-_Problema - Projeto Capas Duras_
+- 📌 | **_Problema - Projeto Capas Duras_**
 
    O governo municipal lançou um projeto nas bibliotecas da cidade chamado Capas Duras, com a finalidade de ampliar o acesso à leitura para toda a população, independentemente de sua condição financeira. Para isso, as bibliotecas municipais receberam doações que totalizam mais de 10 mil livros, os quais serão disponibilizados para empréstimo aos leitores da comunidade.
    Apesar de a nova biblioteca já contar com computadores e estantes adequadas para organizar o acervo, não há recursos financeiros suficientes para investir em equipamentos como leitores de impressão digital ou para produzir carteirinhas para todos os usuários. Dessa forma, surge a necessidade de um sistema simples e de baixo custo que permita administrar o acervo, controlar os empréstimos, verificar a disponibilidade dos livros e registrar as movimentações de forma prática.
    Além da gestão interna da biblioteca, também é importante que o sistema facilite a conexão entre leitores da comunidade que possuam livros e estejam dispostos a emprestá-los. Assim, o projeto não ficaria restrito apenas às bibliotecas municipais, mas poderia se expandir para a participação da própria população, ampliando ainda mais o acesso aos livros.
    Por fim, o sistema deverá permitir a geração de relatórios, possibilitando o acompanhamento dos empréstimos realizados e do número de livros disponíveis no acervo, contribuindo para uma gestão mais eficiente e organizada.
 
-_Descrição da proposta_
+- 🧑‍💻 | **_Descrição da proposta_**
 
    O foco de ação do software é a organização e o empréstimos de livros. Existem dois tipos de usuários: o usuário administrador e o usuário comum, já que todos serão capazes de cadastrar livros para emprestar, receber empréstimos e organizar seus próprios acervos digitais. Para que essa estrutura seja completa, pensamos em uma divisão entre duas partes: em primeiro plano, o acervo digital pessoal, e, em seguida, a parte onde serão efetuados as relações de empréstimos. Toda essa lógica deve funcionar com a possibilidade de chats de conversas entre usuários, além da visualização de endereços de livros disponíveis para empréstimos cadastrados perto de cada usuário.
 
-# 2. Modelagem de Dados
+# 2. Modelagem de Dados 🎲
 
 <img width="908" height="506" alt="modelagem_ReadMore" src="https://github.com/user-attachments/assets/3e806e06-edf4-4ff4-8133-dbbb9257ef23" />
 
-# 3. Requisitos 
+# 3. Requisitos 🎖️
 
-_Requisitos funcionais_
+- ⭐ | **_Requisitos funcionais_**
 
 - **RF001 - Cadastro de usuários**
    - O sistema deve manter usuários.
@@ -61,7 +61,7 @@ _Requisitos funcionais_
 - **RF012 - O sistema deve permitir a opção de entrega de produtos alugados**
 - **RF013 - O sistema deve manter editoras**
 
-_Requisitos não funcionais_
+- 🌟 | **_Requisitos não funcionais_**
 
 - **RNF001 - Login/Logout**
    - O sistema deve permitir que os usuários façam login e logout.
@@ -79,6 +79,8 @@ _Requisitos não funcionais_
    - O sistema deve fornecer um código modular e bem documentado para facilitar a manutenção e atualizações.
 - **RNF009 - Backup e Recuperação**
    - O sistema deve conter mecanismos para backup automático dos dados e recuperação em caso de falha.
+
+# Informações
 
 **Professor:** [Marco André Mendes](github.com/marcoandre)
 
