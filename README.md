@@ -96,7 +96,7 @@
 - **RNF009 - Backup e Recuperação**
    - O sistema deve conter mecanismos para backup automático dos dados e recuperação em caso de falha.
 
-- 🌟 | **_Regras de negócios_**
+- 🪐 | **_Regras de negócios_**
 
 - RN001.01 - Dados dos usuários: nome, e-mail, senha, avatar e endereço.
 - RN001.02 - A imagem deve ser associada ao usuário como “avatar”.
