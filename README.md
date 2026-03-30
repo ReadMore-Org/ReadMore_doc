@@ -1,6 +1,6 @@
 # _**READMORE**_ 📖
 
-# Informações
+# Informações 📋
 
 - 👨‍🏫 | **Professor**
 - [Marco André Mendes](github.com/marcoandre)
