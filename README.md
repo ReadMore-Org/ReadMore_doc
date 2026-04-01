@@ -93,7 +93,7 @@
    - O sistema deve funcionar corretamente nos principais navegadores (Chrome, Firefox, Edge) nas versões mais recentes.
 - _RNF008 - Manutenibilidade_
    - O sistema deve fornecer um código modular e bem documentado para facilitar a manutenção e atualizações.
-- **RNF009 - Backup e Recuperação**
+- _RNF009 - Backup e Recuperação_
    - O sistema deve conter mecanismos para backup automático dos dados e recuperação em caso de falha.
 
 - 🪐 | **_Regras de negócios_**
