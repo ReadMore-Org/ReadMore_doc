@@ -13,7 +13,7 @@
 
 - 🔗 | **Links do projeto**
 -   [Documentação (esse documento)](github.com/ReadMore-Org/ReadMore_doc)
--   Backend: [Repositório](github.com/ReadMore-Org/BackEnd) e [Publicação](Pendente)
+-   Backend: [Repositório](github.com/ReadMore-Org/BackEnd) e [Publicação](https://readmoreback.class.fabricadesoftware.ifc.edu.br/)
 -   Frontend: [Repositório](github.com/ReadMore-Org/FrontEnd) e [Publicação](https://front-end-indol-theta.vercel.app/)
 
 # Proposta 📃
