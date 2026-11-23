@@ -12,9 +12,10 @@
 - [Renan de Lima Pereira](github.com/renan1811)
 
 - 🔗 | **Links do projeto**
--   [Documentação (esse documento)](github.com/ReadMore-Org/ReadMore_doc)
--   Backend: [Repositório](github.com/ReadMore-Org/BackEnd) e [Publicação](https://readmoreback.class.fabricadesoftware.ifc.edu.br/)
--   Frontend: [Repositório](github.com/ReadMore-Org/FrontEnd) e [Publicação](https://front-end-indol-theta.vercel.app/)
+  - [Documentação (esse documento)](https://github.com/ReadMore-Org/ReadMore_doc)
+  - Backend: [Repositório](https://github.com/ReadMore-Org/BackEnd) e [Publicação](https://readmoreback.class.fabricadesoftware.ifc.edu.br/)
+  - Frontend: [Repositório](https://github.com/ReadMore-Org/FrontEnd) e [Publicação](https://front-end-indol-theta.vercel.app/)
+
 
 # Proposta 📃
 
