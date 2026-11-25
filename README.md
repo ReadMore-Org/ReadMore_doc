@@ -6,10 +6,10 @@
 - [Marco André Mendes](github.com/marcoandre)
 
 - 👥 | **Equipe** 
-- [Bianca Lunelli Marques](github.com/bialunelli)
-- [Erick Chaves Fiamoncini](github.com/erickChavesFiamoncini)
-- [Mateus Lima de Macedo](github.com/mateusLimadeMacedo)
-- [Renan de Lima Pereira](github.com/renan1811)
+- [Bianca Lunelli Marques](https://github.com/bialunelli)
+- [Erick Chaves Fiamoncini](https://github.com/erickChavesFiamoncini)
+- [Mateus Lima de Macedo](https://github.com/mateusLimadeMacedo)
+- [Renan de Lima Pereira](https://github.com/renan1811)
 
 - 🔗 | **Links do projeto**
   - [Documentação (esse documento)](https://github.com/ReadMore-Org/ReadMore_doc)
