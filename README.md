@@ -3,7 +3,7 @@
 # Informações 📋
 
 - 👨‍🏫 | **Professor**
-- [Marco André Mendes](https://github.com/marcoandre)
+- [Marco André Mendes](https://github.com/marcaandre)
 
 - 👥 | **Equipe** 
 - [Bianca Lunelli Marques](https://github.com/bialunelli)
